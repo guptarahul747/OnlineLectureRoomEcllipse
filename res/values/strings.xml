@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OnlineLectureRoom</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="dept_array">
+        <item>Select your branch</item>
+        <item>Comp</item>
+        <item>Electrical</item>
+        <item>Mecanical</item>
+    </string-array>
+
+    <string-array name="student_or_teacher">
+        <item>Student</item>
+        <item>Teacher</item>
+    </string-array>
+    
+</resources>
