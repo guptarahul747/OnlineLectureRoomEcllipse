@@ -28,11 +28,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.onlinelectureroom.ui.HomeActivity"
+            android:name="com.onlinelectureroom.ui.TeacherHomeActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
             android:name="com.onlinelectureroom.ui.RegisterActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.onlinelectureroom.ui.ShowEventActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.onlinelectureroom.ui.CreateEventActivity"
             android:label="@string/app_name" >
         </activity>
     </application>

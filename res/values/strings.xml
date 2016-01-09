@@ -17,4 +17,9 @@
         <item>Teacher</item>
     </string-array>
     
+    <string-array name="tabs">
+        <item >Upcoming Events</item>
+        <item>Recent Events</item>
+    </string-array>
+    
 </resources>

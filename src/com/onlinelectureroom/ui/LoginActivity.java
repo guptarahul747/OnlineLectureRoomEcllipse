@@ -94,7 +94,7 @@ public class LoginActivity extends Activity {
 			dialog.dismiss();
 			if (!isLoggedIn) {//TODO remove ! added for testing
 				Intent intent = new Intent();
-				intent.setClass(getBaseContext(), HomeActivity.class);
+				intent.setClass(getBaseContext(), TeacherHomeActivity.class);
 				startActivity(intent);
 				finish();	
 			} else {

@@ -331,8 +331,8 @@ public class RegisterActivity extends Activity {
 					Toast.makeText(getBaseContext(), "Account created",
 							Toast.LENGTH_SHORT).show();
 					Intent intent = new Intent(RegisterActivity.this,
-							HomeActivity.class);
-					intent.putExtra(HomeActivity.TAG_ACCOUNT_TYPE, accountType);
+							TeacherHomeActivity.class);
+					intent.putExtra(TeacherHomeActivity.TAG_ACCOUNT_TYPE, accountType);
 					startActivity(intent);
 					finish();
 				} else {

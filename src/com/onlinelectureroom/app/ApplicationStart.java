@@ -4,7 +4,7 @@ import android.app.Application;
 import android.content.Intent;
 import android.util.Log;
 
-import com.onlinelectureroom.ui.HomeActivity;
+import com.onlinelectureroom.ui.TeacherHomeActivity;
 import com.onlinelectureroom.ui.LoginActivity;
 
 public class ApplicationStart extends Application {
@@ -21,7 +21,7 @@ public class ApplicationStart extends Application {
     public void startMainApplication() {
     	try {
 	        Intent result = new Intent();
-	        result.setClass(getBaseContext(), HomeActivity.class);
+	        result.setClass(getBaseContext(), TeacherHomeActivity.class);
         	startActivity(result);
 		} catch (Exception e) {
 		}
